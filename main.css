@@ -1,0 +1,175 @@
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  
+}
+
+
+/* .site-header {
+} */
+.container {
+  width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.header-div {
+  display: flex;
+  align-items: center;
+}
+.header-div__site-logo {
+  margin-right: 62px;
+}
+/* .header-div__site-logo-img {
+}
+.header-div__header-nav {
+} */
+.header-nav__list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  
+}
+.header-nav__items {
+  position: relative;
+}
+
+.header-nav__items--margi {
+  margin-right: 40px;
+}
+.header-nav__a {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #686868;
+}
+.header-nav__a--nav-a {
+  padding-right: 17px;
+
+}
+.header-nav__a--nav-a::after {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  background-image: url("./images/downafter.svg");
+  width: 9px;
+  height: 6px;
+  content: "";
+
+
+}
+.header-div__login-div {
+  margin-left: auto;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.login-div__a {
+  display: inline-block;
+  padding: 13px 23px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #686868;
+  border: 1.5px solid transparent;
+
+}
+
+.login-div__a:hover {
+  border: 1.5px solid #686868;
+  border-radius: 14px;
+
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 46px 95px 130px;
+
+}
+.intro__left-div {
+  padding-top: 104px;
+  width: 540px;
+}
+.site-title {
+  margin-top: 0;
+  margin-bottom: 48px;
+  font-size: 80px;
+  line-height: 80px;
+  color: #151515;
+}
+.intro__p-div {
+  width: 445px;
+}
+.intro__p {
+  margin-top: 0;
+  margin-bottom: 51px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #686868;
+}
+.intro__a {
+  display: inline-block;
+  margin-bottom: 108px;
+  padding: 14px 29px;
+  text-decoration: none;
+  background-color: #151515;
+  color: #fafafa;
+  border: 1px solid #151515;
+  border-radius: 15px;
+}
+.intro__a:hover {
+  color: #151515;
+  background-color: #fafafa;
+}
+.intro__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: auto;
+  margin-left: auto; */
+  padding-left: 0;
+  list-style: none;
+}
+.intro__items {
+}
+.intro__items--margi {
+  margin-right: 40px;
+}
+
+.items__a {
+  text-decoration: none;
+}
+.items__img {
+}
+.intro__img {
+}
+
+
+
+
