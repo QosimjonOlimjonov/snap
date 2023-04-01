@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./main_main.css">
   <title>Snap</title>
 </head>
 <body>
@@ -17,13 +17,38 @@
           height="27"
           alt="sitelogoimg">
         </a>
-        <nav class="header-div__header-nav">
+        <nav class="header-div__header-nav header-nav">
           <ul class="header-nav__list">
-            <li class="header-nav__items header-nav__items--margi">
+            <li class="header-nav__items nav-items header-nav__items--margi">
               <a class="header-nav__a header-nav__a--nav-a" href="#">Features</a>
+              <ul class="nav-items__list">
+                <li class="nav-items__items">
+                  <a class="nav-items__a" href="#">Todo List</a>
+                </li>
+                <li class="nav-items__items">
+                  <a class="nav-items__a" href="#">Calendar</a>
+                </li>
+                <li class="nav-items__items">
+                  <a class="nav-items__a" href="#">Reminders</a>
+                </li>
+                <li class="nav-items__items">
+                  <a class="nav-items__a" href="#">Planning</a>
+                </li>
+              </ul>
             </li>
-            <li class="header-nav__items header-nav__items--margi">
+            <li class="header-nav__items nav-items header-nav__items--margi">
               <a class="header-nav__a header-nav__a--nav-a" href="#">Company</a>
+              <ul class="nav-items__list nav-items__list--company">
+                <li class="nav-items__itemscompany">
+                  <a class="nav-items__a" href="#">History</a>
+                </li>
+                <li class="nav-items__itemscompany">
+                  <a class="nav-items__a" href="#">Our Team</a>
+                </li>
+                <li class="nav-items__itemscompany">
+                  <a class="nav-items__a" href="#">Blog</a>
+                </li>
+              </ul>
             </li>
             <li class="header-nav__items header-nav__items--margi">
               <a class="header-nav__a" href="#">Careers</a>
@@ -33,7 +58,7 @@
             </li>
           </ul>
         </nav>
-        <div class="header-div__login-div">
+        <div class="header-div__login-div login-div">
           <a class="login-div__a" href="">Login</a>
           <a class="login-div__a" href="">Register</a>
         </div>
@@ -46,51 +71,52 @@
         <div class="intro__left-div">
           <h1 class="site-title">Make<br>remote work</h1>
           <div class="intro__p-div">
-          <p class="intro__p">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+            <p class="intro__p">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
           </div>
           <a class="intro__a" href="#">Learn more</a>
           <ul class="intro__list">
-            <li class="intro__items intro__items--margi">
+            <li class="intro__items items intro__items--margi">
               <a class="items__a" href="#">
                 <img class="items__img" src="./images/databiz.svg" 
                 width="113"
                 height="20"
-                alt="">
+                alt="databizlogo">
               </a>
             </li>
-            <li class="intro__items intro__items--margi">
+            <li class="intro__items items intro__items--margi">
               <a class="items__a" href="#">
                 <img class="items__img" src="./images/audio-phile.svg" 
                 width="73"
                 height="36"
-                alt="">
+                alt="aufiophilelogo">
               </a>
             </li>
-            <li class="intro__items intro__items--margi">
+            <li class="intro__items items intro__items--margi">
               <a class="items__a" href="#">
                 <img class="items__img" src="./images/meet.svg" 
                 width="90"
                 height="20"
-                alt="">
+                alt="meetlogo">
               </a>
             </li>
-            <li class="intro__items">
+            <li class="intro__items items">
               <a class="items__a" href="#">
-                <img class="intro__img" src="./images/maker.svg" 
+                <img class="items__img" src="./images/maker.svg" 
                 width="82"
                 height="24"
-                alt="">
+                alt="makerlogo">
               </a>
             </li>
           </ul>
         </div>
-        <img class="items__img" src="./images/hero-bg.png" 
-                width="480"
-                height="640"
-                alt="">
+        <img class="intro__img" src="./images/hero-bg.png" 
+        width="480"
+        height="640"
+        alt="">
       </section>
     </div>
   </main>
+  
   
 </body>
 </html>
